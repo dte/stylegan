@@ -1,0 +1,7 @@
+version: 0
+
+type: "single"
+worker:
+  container: "ufoym/deepo:all-py36"
+  command: "python generate_figures.py"
+  machine-type: "P5000"
