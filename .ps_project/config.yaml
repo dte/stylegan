@@ -2,6 +2,6 @@ version: 0
 
 type: "single"
 worker:
-  container: "ufoym/deepo:tensorflow-py36-cu90"
+  container: "samuelcolvin/tensorflow-gpu-py36"
   command: "python generate_figures.py"
   machine-type: "K80"
