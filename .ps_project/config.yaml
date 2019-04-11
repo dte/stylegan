@@ -5,6 +5,6 @@ worker:
   container: "samuelcolvin/tensorflow-gpu-py36"
   command: "python generate_figures.py"
   machine-type: "K80"
-dockerfile:
-    use: true
-    path: "./Dockerfile"
+  dockerfile:
+      use: true
+      path: "./Dockerfile"
