@@ -2,6 +2,7 @@ version: 0
 
 type: "single"
 worker:
+  container: "python"
   command: "python generate_figures.py"
   machine-type: "K80"
   dockerfile:
