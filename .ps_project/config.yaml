@@ -1,10 +1,10 @@
-version: 0
+version: 1
 
 type: "single"
 worker:
-  container: "samuelcolvin/tensorflow-gpu-py36"
+  container: "python"
   command: "python generate_figures.py"
   machine-type: "K80"
-dockerfile:
-    use: true
-    path: "./Dockerfile"
+  dockerfile:
+      use: true
+      path: "./Dockerfile"
