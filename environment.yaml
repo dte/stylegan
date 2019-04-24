@@ -1,6 +1,5 @@
 name: tensorflow_gpu
 channels:
-  - conda-forge
   - pytorch
   - fastai
   - defaults
