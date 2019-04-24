@@ -3,11 +3,14 @@ channels:
   - conda-forge
   - pytorch
   - fastai
+  - defaults
 dependencies:
   - python=3.6
   - tensorflow-gpu=1.10
   - cuda92
   - jupyter
   - pillow
+  - cudnn
+  - numpy
   - pip:
       - nvidia-ml-py3
