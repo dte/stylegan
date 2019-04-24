@@ -11,5 +11,6 @@ dependencies:
   - jupyter
   - pillow
   - requests
+  - numpy
   - pip:
       - nvidia-ml-py3
