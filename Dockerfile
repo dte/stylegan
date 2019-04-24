@@ -30,8 +30,8 @@ RUN curl -o ~/miniconda.sh -O  https://repo.continuum.io/miniconda/Miniconda3-la
 
 ENV PATH=$PATH:/opt/conda/bin/
 # Create Enviroment
-COPY enviroment.yaml /enviroment.yaml
-RUN conda env create -f enviroment.yaml
+COPY environment.yaml /environment.yaml
+RUN conda env create -f environment.yaml
 
 COPY . /stylegan
 WORKDIR /stylegan/
