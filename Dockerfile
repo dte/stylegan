@@ -43,4 +43,4 @@ RUN chmod -R a+w /stylegan
 RUN chmod +x /stylegan/run.sh
 WORKDIR /stylegan/
 
-CMD ["run.sh"]
+CMD ["./run.sh"]
