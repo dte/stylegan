@@ -8,5 +8,6 @@ dependencies:
   - tensorflow-gpu=1.10
   - cuda92
   - jupyter
+  - pillow
   - pip:
       - nvidia-ml-py3
