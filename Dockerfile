@@ -6,6 +6,8 @@ RUN python --version
 
 RUN pip install tensorflow-gpu
 
-RUN echo "RUNNING IN CUSTOM DOCKER CONTAINER"
+COPY . /stylegan
 
-RUN python pretrained_example.py
+WORKDIR /stylegan
+
+CMD python pretrained_example.py
