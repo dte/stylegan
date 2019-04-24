@@ -1,6 +1,8 @@
 name: tensorflow_gpu
 channels:
   - conda-forge
+  - pytorch
+  - fastai
 dependencies:
   - python=3.6
   - tensorflow-gpu=1.10
