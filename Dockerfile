@@ -40,6 +40,7 @@ CMD source activate tensorflow_gpu
 CMD source ~/.bashrc
 
 RUN chmod -R a+w /stylegan
+RUN chmod +x /stylegan/run.sh
 WORKDIR /stylegan/
 
 CMD ["run.sh"]
