@@ -1,7 +1,7 @@
 #!/bin/bash
 
-sudo add-apt-repository ppa:deadsnakes/ppa && sudo apt-get update && sudo apt-get install -y python3.6
-
+echo "====ACTIVATE CONDA ENVIRONMENT===="
+source activate tensorflow_gpu
 echo "====RUNNING PRETRAINED_EXAMPLE.PY===="
 python pretrained_example.py
 echo "====RUNNING GENERATE_FIGURES.PY===="
