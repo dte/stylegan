@@ -1,6 +1,6 @@
 name: tensorflow_gpu
 channels:
-  - defaults
+  - conda-forge
 dependencies:
   - python=3.6
   - tensorflow-gpu=1.10
