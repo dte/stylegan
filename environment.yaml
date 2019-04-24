@@ -1,0 +1,6 @@
+name: tensorflow_gpu
+channels:
+  - defaults
+dependencies:
+  - python=3.6
+  - tensorflow-gpu=1.10
