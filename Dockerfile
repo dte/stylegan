@@ -6,4 +6,6 @@ RUN python --version
 
 RUN pip install tensorflow-gpu
 
-# RUN python pretrained_example.py
+RUN echo "RUNNING IN CUSTOM DOCKER CONTAINER"
+
+RUN python pretrained_example.py
