@@ -6,11 +6,9 @@ channels:
   - defaults
 dependencies:
   - python=3.6
-  - tensorflow-gpu
   - cuda92
   - jupyter
   - pillow
   - requests
   - numpy
-  - pip:
-      - nvidia-ml-py3
+  - tensorflow-gpu
