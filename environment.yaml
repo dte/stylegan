@@ -9,5 +9,5 @@ dependencies:
   - jupyter
   - pillow
   - requests
-  - numpy
+  - numpy=1.16.1
   - tensorflow-gpu
